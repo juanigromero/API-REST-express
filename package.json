@@ -6,16 +6,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "start:dev": "nodemon server.js"
-    
   },
   "author": "",
   "keywords": [],
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
   },
-  "devDependencies": {},
   "description": ""
 }
